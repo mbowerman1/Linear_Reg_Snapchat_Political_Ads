@@ -7,8 +7,8 @@ For my linear regression models, I chose to look at the open data on Snapchat po
 ### Table used to convert Amount spent to USD$
 ![](Images/Currency_Conversion_Table.PNG)
 
-R-squared was BLANK, indicating BLANK. Standard error was BLANK, indicating ?? The coefficient for Amount spent was BLANK, with a p-value of BLANK, indicating BLANK. F significance was BLANK, indicating BLANK.
-Overall, CONCLUSIONS.
+R-squared was 0.7086, indicating that 70.86% of the variation in Number of views was explained by variation in Amount spent, a fairly strong relationship. Standard error was 2.89E6. The coefficient for Amount spent was 343.46, with a p-value of 0, suggesting extremely high confidence in the significance of the coefficient. This was supported by an F significance equivalent to zero.
+Overall, these stats support my hypothesis that there would be a strong positive relationship between Amount Spent and Number of views.
 Below, I've provided a zoomed-in version of the simple regression model, excluding all outliers, to better model the relationship.
 
 ### Simple Linear Regression Model Less Outliers
