@@ -2,17 +2,17 @@
 For my linear regression models, I chose to look at the open data on Snapchat political ads. My simple regression model used Amount spent by advertiser over current campaign in US dollars (USD$) as the independent variable and Number of ad views by Snapchatters as the dependent variable. The VLOOKUP function was used to convert all non-USD currency amounts to USD. A scatterplot showed, not unexpectedly, a positive relationship between the two variables.
 
 ## Simple Linear Regression Model
-image
+![](Images/Original%20Visualization.PNG)
 
 ### Table used to convert Amount spent to USD$
 image
 
 R-squared was BLANK, indicating BLANK. Standard error was BLANK, indicating ?? The coefficient for Amount spent was BLANK, with a p-value of BLANK, indicating BLANK. F significance was BLANK, indicating BLANK.
 Overall, CONCLUSIONS.
-Below, I've provided a zoomed-in version of the simple regression model, excluding all outliers.
+Below, I've provided a zoomed-in version of the simple regression model, excluding all outliers, to better model the relationship.
 
 ### Simple Linear Regression Model Less Outliers
-image
+![](Images/Visualization%20less%20Outliers.PNG)
 
 My multiple regression model also used Number of views as the dependent variable. The independent variables were Amount spend by advertisers and Country of views. The VLOOKUP function was used to convert all currency amounts to USD$, exactly as in the simple regression model, and also to match each country targeted with a unique one- or two-digit code. The codes were assigned to countries alphabetically.
 
