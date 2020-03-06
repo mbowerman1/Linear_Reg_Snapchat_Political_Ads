@@ -1,4 +1,4 @@
-# Predicting Views for Snapchat Ads Based On Spending and Country Targeted
+# Predicting Impressions for Snapchat Ads Based On Spending and Country Targeted
 For my linear regression models, I chose to look at the open data on Snapchat political ads. My simple regression model used Amount spent by advertiser over current campaign in US dollars (USD$) as the independent variable and Number of ad views ("impressions") by Snapchatters as the dependent variable. The VLOOKUP function was used to convert all non-USD currency amounts to USD. A scatterplot showed, not at all unexpectedly, a positive relationship between the two variables.
 
 ## Simple Linear Regression Model
